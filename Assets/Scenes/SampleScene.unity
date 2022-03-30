@@ -437,36 +437,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1512038205
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1512038206}
-  m_Layer: 0
-  m_Name: Numbers
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1512038206
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1512038205}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.0355178, y: -2.9822025, z: -3.075207}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1844220944
 GameObject:
   m_ObjectHideFlags: 0
@@ -492,7 +462,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1844220944}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -10, y: 1.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 0}
   m_Children: []
   m_Father: {fileID: 517669530}
@@ -510,7 +480,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c27b2136313633543af1330f749c175b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NumberPrefab: {fileID: 1678898019132589393, guid: 2e3a47ea0a8dc6b4b8d08c703b4c9194, type: 3}
+  NumberPrefab: {fileID: 6912777440606790573, guid: 7b021d50d4b4a224c8c012f277795680, type: 3}
   NumberSprites:
   - {fileID: 21300000, guid: 15e454a5221c9ec49847b283618d59cf, type: 3}
   - {fileID: 21300000, guid: a276449ff3436214483b1ebcca302e25, type: 3}
@@ -522,4 +492,3 @@ MonoBehaviour:
   - {fileID: 21300000, guid: fb626370627dd224e8b566d2aeed36e7, type: 3}
   - {fileID: 21300000, guid: 28da37651b3d61240955f6a1fe173b83, type: 3}
   - {fileID: 21300000, guid: 7c73db1edf4e50b4a98365893bbfa4af, type: 3}
-  SpriteRenderer: {fileID: 0}

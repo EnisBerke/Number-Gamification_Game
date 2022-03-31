@@ -25,7 +25,6 @@ public class scApple : MonoBehaviour
         scGameManager.Instance.Score++;
 
 
-
         //Destroy(other.gameObject);
     }
 }

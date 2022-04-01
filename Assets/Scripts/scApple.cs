@@ -20,9 +20,11 @@ public class scApple : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Score: ");
 
-        scGameManager.Instance.Score++;
+        
+       float score = ++scGameManager.Instance.Score;
+
+        Debug.Log("Score: " + score);
 
 
         //Destroy(other.gameObject);

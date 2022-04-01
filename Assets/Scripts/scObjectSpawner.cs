@@ -8,11 +8,13 @@ public class scObjectSpawner : MonoBehaviour
     public float spawnTime;
     public float minTime;
     public float maxTime;
-    public float Delay = 3f;
+    public float minTimeTS;
+    public float maxTimeTS;
+    //public float Delay = 3f;
     public float timeToStop;
     public float timePassed;
-    
-    
+    public float untillPassed;
+
 
     void Start()
     {
@@ -33,9 +35,10 @@ public class scObjectSpawner : MonoBehaviour
     private void Awake()
     {
         spawnTime = Random.Range(minTime, maxTime);
-        Debug.Log("spawnTime: "+ spawnTime);
+        Debug.Log("spawnTime: " + spawnTime);
+        timeToStop = Random.Range(minTimeTS, maxTimeTS);
+        
 
-       
 
 
     }

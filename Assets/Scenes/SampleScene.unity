@@ -152,7 +152,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 517669530}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &138873481
 MonoBehaviour:
@@ -197,7 +197,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 517669530}
-  m_RootOrder: 0
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &305746780
 MonoBehaviour:
@@ -215,9 +215,12 @@ MonoBehaviour:
   spawnTime: 1
   minTime: 3
   maxTime: 3
-  Delay: 3
-  timeToStop: 27
+  minTimeTS: 3
+  maxTimeTS: 27
+  Delay: 0
+  timeToStop: 0
   timePassed: 0
+  untillPassed: 0
 --- !u!114 &305746781
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -230,8 +233,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7beac6aec7ab2834ab7d7322a39f5589, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnInterval: 0
-  startDelay: 3
 --- !u!1 &517669529
 GameObject:
   m_ObjectHideFlags: 0
@@ -259,10 +260,10 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 305746779}
   - {fileID: 138873480}
   - {fileID: 1844220945}
   - {fileID: 1272153679}
+  - {fileID: 305746779}
   - {fileID: 2072292581}
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -379,7 +380,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 517669530}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1272153680
 MonoBehaviour:
@@ -531,7 +532,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 0}
   m_Children: []
   m_Father: {fileID: 517669530}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1844220946
 MonoBehaviour:
@@ -596,7 +597,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2072292580}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f9671bb750c5f841836fa849fe6298a, type: 3}
   m_Name: 

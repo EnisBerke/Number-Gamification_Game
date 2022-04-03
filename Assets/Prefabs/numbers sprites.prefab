@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6912777438903491638}
   m_Layer: 0
   m_Name: three
-  m_TagString: Untagged
+  m_TagString: three
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 6912777439033290070}
   m_Layer: 0
   m_Name: one
-  m_TagString: Untagged
+  m_TagString: one
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -176,7 +176,7 @@ GameObject:
   - component: {fileID: 6912777439368046697}
   m_Layer: 0
   m_Name: two
-  m_TagString: Untagged
+  m_TagString: two
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -258,7 +258,7 @@ GameObject:
   - component: {fileID: 6912777439531933811}
   m_Layer: 0
   m_Name: five
-  m_TagString: Untagged
+  m_TagString: five
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -340,7 +340,7 @@ GameObject:
   - component: {fileID: 6912777439710427478}
   m_Layer: 0
   m_Name: nine
-  m_TagString: Untagged
+  m_TagString: nine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -422,7 +422,7 @@ GameObject:
   - component: {fileID: 6912777439753258646}
   m_Layer: 0
   m_Name: four
-  m_TagString: Untagged
+  m_TagString: four
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -504,7 +504,7 @@ GameObject:
   - component: {fileID: 6912777439804243872}
   m_Layer: 0
   m_Name: eight
-  m_TagString: Untagged
+  m_TagString: eight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -586,7 +586,7 @@ GameObject:
   - component: {fileID: 6912777440350520326}
   m_Layer: 0
   m_Name: six
-  m_TagString: Untagged
+  m_TagString: six
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -707,7 +707,7 @@ GameObject:
   - component: {fileID: 6912777440842536218}
   m_Layer: 0
   m_Name: seven
-  m_TagString: Untagged
+  m_TagString: seven
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

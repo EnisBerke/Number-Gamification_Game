@@ -167,6 +167,50 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Score: 0
+--- !u!1 &297874361
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 297874362}
+  - component: {fileID: 297874363}
+  m_Layer: 0
+  m_Name: NumberButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &297874362
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297874361}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 517669530}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &297874363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297874361}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a0c35eadb7b19c4a961f9274fb29e52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  yourButton: {fileID: 6912777440606790573, guid: 7b021d50d4b4a224c8c012f277795680, type: 3}
 --- !u!1 &305746778
 GameObject:
   m_ObjectHideFlags: 0
@@ -217,7 +261,6 @@ MonoBehaviour:
   maxTime: 3
   minTimeTS: 3
   maxTimeTS: 27
-  Delay: 0
   timeToStop: 0
   timePassed: 0
   untillPassed: 0
@@ -265,6 +308,7 @@ Transform:
   - {fileID: 1272153679}
   - {fileID: 305746779}
   - {fileID: 2072292581}
+  - {fileID: 297874362}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -602,6 +646,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f9671bb750c5f841836fa849fe6298a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnObject: {fileID: 4777777403576710683, guid: 53e914a12aed8d341afe043fa1c1a6a4, type: 3}
-  maxTime: 10
-  minTime: 3

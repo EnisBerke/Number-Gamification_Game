@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class scApple : MonoBehaviour
 {
-    
+    internal object score;
+
 
     // Start is called before the first frame update
     void Start()
@@ -18,7 +19,7 @@ public class scApple : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    public void OnTriggerEnter2D(Collider2D collision)
     {
 
         

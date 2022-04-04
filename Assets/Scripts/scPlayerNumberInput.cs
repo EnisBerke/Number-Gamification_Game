@@ -2,19 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class scPlayerNumberInput : MonoBehaviour
 {
-	public GameObject yourButton;
+	public SpriteRenderer yourButton;
+    private void Awake()
+    {
+       
+        OnMouseDown();
+    }
 
-	void Start()
-	{
-		Button btn = yourButton.GetComponent<Button>();
-		btn.onClick.AddListener(TaskOnClick);
-	}
+    void OnMouseDown()
+    {
+        Debug.Log("You have clicked the button!");
+    }
 
-	void TaskOnClick()
-	{
-		Debug.Log("You have clicked the button!");
-	}
 }

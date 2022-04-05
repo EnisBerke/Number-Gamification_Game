@@ -11,7 +11,7 @@ public class scObjectSpawner : MonoBehaviour
     public float minTimeTS;
     public float maxTimeTS;
     //public float Delay = 3f;
-    public float timeToStop;
+    public static float timeToStop;
     public float timePassed;
     public float untillPassed;
 

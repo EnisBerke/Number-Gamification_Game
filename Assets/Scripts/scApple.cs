@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class scApple : MonoBehaviour
 {
-    internal object score;
+    public float score;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        scGameManager.ScoreValue++;
     }
 
     // Update is called once per frame
@@ -23,7 +23,7 @@ public class scApple : MonoBehaviour
     {
 
         
-       float score = ++scGameManager.Instance.Score;
+       score = ++scGameManager.Instance.Score;
 
         Debug.Log("Score: " + score);
 

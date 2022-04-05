@@ -5,7 +5,7 @@ using UnityEngine;
 public class scGameManager : MonoBehaviour
 {
     public static scGameManager Instance;
-
+    public static float ScoreValue;
     public int Score;
 
     private void Awake()

@@ -1,10 +1,14 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class scFourNumberIndex : MonoBehaviour
 {
     ///public GameObject Index;
+
+    
 
     void Start()
     {
@@ -27,8 +31,21 @@ public class scFourNumberIndex : MonoBehaviour
         {
             if (scGameManager.ScoreValue == 4)
             {
+               
                 Debug.Log("Correct Answer");
+
+            }
+            else
+            {
+                
+                Debug.Log("Wrong Answer");
             }
         }
+
+        
     }
+
+    
+
+   
 }
